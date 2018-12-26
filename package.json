@@ -1,0 +1,17 @@
+{
+  "name": "screenshoter",
+  "version": "1.0.0",
+  "description": "This app takes automatic screenshots of a website at a given interval",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "ship": "electron-packager ."
+  },
+  "author": "jenia90",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^4.0.0",
+    "electron-packager": "^13.0.1",
+    "puppeteer": "*"
+  }
+}
