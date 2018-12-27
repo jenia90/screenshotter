@@ -28,8 +28,6 @@ function process () {
     
 };
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('processBtn').addEventListener('click', process);
     document.getElementById('stopBtn').addEventListener('click', () => { 
